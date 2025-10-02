@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f0d6268717424fb66e68c25568477, type: 3}
+  m_Name: FactoryRegistry
+  m_EditorClassIdentifier: 
+  entries:
+  - Key: Conveyor Belt
+    Prefab: {fileID: 706833358491353251, guid: 85fb131d41299ae4994cd2020148121c, type: 3}
+  - Key: Conveyor Belt+
+    Prefab: {fileID: 927107985230110929, guid: f4018dd2cd59c2b4685097a7e15d9edf, type: 3}
+  - Key: Conveyor Belt++
+    Prefab: {fileID: 1347600980824431116, guid: 18f84b5c5ec3b0f4abae0471bb9baae5, type: 3}
+  - Key: Centering Conveyor Belt
+    Prefab: {fileID: 220390060946345729, guid: b6dc783809feb8346aab1de268ad0db7, type: 3}
+  - Key: Centering Conveyor Belt+
+    Prefab: {fileID: 3854824941218934556, guid: e9780c876bd203c48be8fb1d52afd39f, type: 3}
+  - Key: Centering Conveyor Belt++
+    Prefab: {fileID: 9040585134218877539, guid: 5fa5328507125b84295fcea66be3ea72, type: 3}
+  - Key: Upwards Conveyor Belt
+    Prefab: {fileID: 3480475634633191421, guid: cede78aacb5429942b0f4251694b12af, type: 3}
+  - Key: Upwards Conveyor Belt+
+    Prefab: {fileID: 5523938867028676748, guid: 813714b3fa229c540895089bf9fd01d6, type: 3}
+  - Key: Upwards Conveyor Belt++
+    Prefab: {fileID: 7106010558679519254, guid: 83167cf4cc6fbb546a52a0ac2ed6c277, type: 3}
+  - Key: Downwards Conveyor Belt
+    Prefab: {fileID: 8093313197496024376, guid: d9fd6d579abbcb44cbdc3666bb0d2175, type: 3}
+  - Key: Downwards Conveyor Belt+
+    Prefab: {fileID: 7532302615993025646, guid: fc4354f90bbb7f546a1eae19d5e5923a, type: 3}
+  - Key: Downwards Conveyor Belt++
+    Prefab: {fileID: 8663492512182365293, guid: aecd1a0be582fe445b4f6d42b2297e96, type: 3}
+  - Key: Conveyor Wall
+    Prefab: {fileID: 3744674042727500574, guid: 0437e05378f30d648af1582b5b342170, type: 3}
+  - Key: Conveyor Walls
+    Prefab: {fileID: 4343425292740387943, guid: 54408784b94964e489fd38cf4faa2bd8, type: 3}
+  - Key: Extracter
+    Prefab: {fileID: 8444025710060153647, guid: 1345b59b6c87cae48bc775a2f0075659, type: 3}
+  - Key: Dropper
+    Prefab: {fileID: 865172022148282866, guid: 211daa7db290eb6429010035be3c7bed, type: 3}
+  - Key: Dropper+
+    Prefab: {fileID: 5026155157256845878, guid: 4e2210d9946221c4f9405ca13179987d, type: 3}
+  - Key: Dropper++
+    Prefab: {fileID: 2920504971234514620, guid: 2b6a14ad79ad3bb4d808ec485bf056c2, type: 3}
+  - Key: Oil Dropper
+    Prefab: {fileID: 2036414045901981637, guid: 9275b7022f42e8945b947f8ccc80468a, type: 3}
+  - Key: Drill
+    Prefab: {fileID: 2805554447938832827, guid: 6aac6ac637c119d4095e7da7e3cd202c, type: 3}
+  - Key: Drill+
+    Prefab: {fileID: 6446060790335604193, guid: ea4603c0c94334f47b692de4f4e51457, type: 3}
+  - Key: Drill++
+    Prefab: {fileID: 8611800486616751817, guid: b7707b5587216ad40987c9587a037bd0, type: 3}
+  - Key: Furnace
+    Prefab: {fileID: 1945704927268416202, guid: 434917eb7f7353c41b174b97a75aadc6, type: 3}
+  - Key: Furnace+
+    Prefab: {fileID: 5253402590181945897, guid: 541d817dd7857ae4bb01fefbd7884e74, type: 3}
+  - Key: Furnace++
+    Prefab: {fileID: 2663135020312849953, guid: fd76861be59ba824cb360226d5fd625c, type: 3}
+  - Key: Furnace+++
+    Prefab: {fileID: 4594280936765500056, guid: 7f84e5343bc56494db9aa2e7326464df, type: 3}
+  - Key: Furnace++++
+    Prefab: {fileID: 1638858573314942121, guid: 4752d20bd64f0ab4bb6071be8726aa54, type: 3}
+  - Key: Furnace+++++
+    Prefab: {fileID: 2551370944898351890, guid: b18f99d1ef153b746b263b3468c7a4cb, type: 3}
+  - Key: Colour Machine
+    Prefab: {fileID: 6575502236402131542, guid: a42ff88d8c3e3344290be57b905d1580, type: 3}
+  - Key: Splitter
+    Prefab: {fileID: 1201862855236694737, guid: d40e85c72c63aa44384bce526a63e220, type: 3}
+  - Key: Upgrader
+    Prefab: {fileID: 2853680968837800798, guid: 69ae0a4c75696d7478bd1777e9d8be54, type: 3}
+  - Key: Upgrader+
+    Prefab: {fileID: 1347377716066016710, guid: 0e3719c4fbfb22046a5d3dc755ec66aa, type: 3}
+  - Key: Upgrader++
+    Prefab: {fileID: 825308771312589479, guid: a1313bf9928a57e4b98119978ff50ef2, type: 3}
+  - Key: Upgrader+++
+    Prefab: {fileID: 6571905579278945914, guid: e3bcc3ede1665694bb0e09f721b6d92d, type: 3}
+  - Key: Upgrader++++
+    Prefab: {fileID: 8387995118990266374, guid: 49afb62795db68940a2b865fcbd46e5b, type: 3}
+  - Key: Upgrader+++++
+    Prefab: {fileID: 3428827389668321430, guid: 4c73c8494e20ec6438bf30cab9565cd3, type: 3}
